@@ -1,0 +1,11 @@
+C:\Users\diazl\OneDrive\Escritorio\BomvinoApp\BonvinoApp\bin\Debug\BonvinoApp.exe.config
+C:\Users\diazl\OneDrive\Escritorio\BomvinoApp\BonvinoApp\bin\Debug\BonvinoApp.exe
+C:\Users\diazl\OneDrive\Escritorio\BomvinoApp\BonvinoApp\bin\Debug\BonvinoApp.pdb
+C:\Users\diazl\OneDrive\Escritorio\BomvinoApp\BonvinoApp\obj\Debug\BonvinoApp.csproj.AssemblyReference.cache
+C:\Users\diazl\OneDrive\Escritorio\BomvinoApp\BonvinoApp\obj\Debug\BonvinoApp.MainWindow.resources
+C:\Users\diazl\OneDrive\Escritorio\BomvinoApp\BonvinoApp\obj\Debug\BonvinoApp.Properties.Resources.resources
+C:\Users\diazl\OneDrive\Escritorio\BomvinoApp\BonvinoApp\obj\Debug\BonvinoApp.csproj.GenerateResource.cache
+C:\Users\diazl\OneDrive\Escritorio\BomvinoApp\BonvinoApp\obj\Debug\BonvinoApp.csproj.CoreCompileInputs.cache
+C:\Users\diazl\OneDrive\Escritorio\BomvinoApp\BonvinoApp\obj\Debug\BonvinoApp.exe
+C:\Users\diazl\OneDrive\Escritorio\BomvinoApp\BonvinoApp\obj\Debug\BonvinoApp.pdb
+C:\Users\diazl\OneDrive\Escritorio\BomvinoApp\BonvinoApp\obj\Debug\BonvinoApp.CapaPresentacion.Forms.PantallaGenerarRankingVino.resources

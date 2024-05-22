@@ -1,0 +1,54 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BonvinoApp.CapaNegocio
+{
+    class Bodega
+    {
+        #region [Atributos]
+
+        private List<float> coordenadasUbicacion;
+        private string descripcion;
+        private string historia;
+        private string nombre;
+        private int periodoActualizacion; //no tengo idea que es esto, le mande int
+
+        #endregion
+
+        #region [Métodos get y set]
+        public List<float> CoordenadasUbicacion { get => coordenadasUbicacion; set => coordenadasUbicacion = value; }
+        public string Descripcion { get => descripcion; set => descripcion = value; }
+        public string Historia { get => historia; set => historia = value; }
+        public string Nombre { get => nombre; set => nombre = value; }
+        public int PeriodoActualizacion { get => periodoActualizacion; set => periodoActualizacion = value; }
+
+        #endregion
+
+        /// <summary>
+        /// Constructor de la clase Bodega
+        /// </summary>
+        /// <param name="coordenadasUbicacion"></param>
+        /// <param name="descripcion"></param>
+        /// <param name="historia"></param>
+        /// <param name="nombre"></param>
+        /// <param name="periodoActualizacion"></param>
+        public Bodega(List<float> coordenadasUbicacion, string descripcion, string historia, string nombre, int periodoActualizacion)
+        {
+            CoordenadasUbicacion = coordenadasUbicacion;
+            Descripcion = descripcion;
+            Historia = historia;
+            Nombre = nombre;
+            PeriodoActualizacion = periodoActualizacion;
+        }
+
+        #region [Métodos]
+
+        //métodos propios de la clase
+
+        #endregion
+    }
+}
