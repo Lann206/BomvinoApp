@@ -1,4 +1,4 @@
-﻿![Logo](logo.jpg)
+﻿![Logo](https://scontent.fcor2-2.fna.fbcdn.net/v/t39.30808-6/312049349_515491410585029_6223947848301125492_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGWXnZ_p7qk2-Q97OhG6ljGwxiaEPZotKTDGJoQ9mi0pIzLh4ed9nEL9JRDoOOoGlF5SzotScNdxiIEDQG7WDjt&_nc_ohc=YPz74X4LvJ0Q7kNvgEYU1ur&_nc_ht=scontent.fcor2-2.fna&oh=00_AYCN-crbUb6ttTBYK7SBMlwOaPKRm9B04NH2csia02uO7w&oe=665589F4)
 
 
 ## Bomvino - Encuentra el vino correcto
@@ -37,16 +37,16 @@ No Contempla:
 ⋐ Universidad Tecnológica Nacional - Facultad Regional Córdoba ⋑
 
 ➤ PPAI2023_3K5_G7
-- [legajo -	apellido, nombre](https://www.github.com/perfilGitHub)
-- [77029 -	Diaz Luna, Franco Emmanuel](https://www.github.com/FrancoDiazLuna)
-- [legajo -	apellido, nombre](https://www.github.com/perfilGitHub)
-- [legajo -	apellido, nombre](https://www.github.com/perfilGitHub)
-- [legajo -	apellido, nombre](https://www.github.com/perfilGitHub)
-- [legajo -	apellido, nombre](https://www.github.com/perfilGitHub)
-- [legajo -	apellido, nombre](https://www.github.com/perfilGitHub)
-- [16467 -	Ponce, Norberto Ariel](https://www.github.com/narielponce)
-- [legajo -	apellido, nombre](https://www.github.com/perfilGitHub)
-- [legajo -	apellido, nombre](https://www.github.com/perfilGitHub)
+- [legajo -	Adami, Constanza](https://www.github.com/CotyAdami)
+- [77029 -	Diaz Luna, Franco](https://www.github.com/FrancoDiazLuna)
+- [legajo -	Duarte, Lucia](https://www.github.com/luciaduarte12)
+- [86495 - Lypnik, Zoi](https://www.github.com/ZoiLyp)
+- [legajo -	Pereyra, Ezequiel ](https://www.github.com/EzePCba)- 
+- [16467 -	Ponce, Ariel](https://www.github.com/narielponce)- 
+- [legajo -	Pucheta, Lanfranco](https://www.github.com/Lann206)
+- [legajo -	Marchetti, Matias ](https://www.github.com/Matiash96)
+- [legajo -	Morellato, Mayra](https://www.github.com/MayraMorellato)  
+- [legajo -	Zin, Cecilia ](https://www.github.com/CeciliaZin)
 
 
 ## Roadmap
@@ -69,4 +69,4 @@ Este proyecto es utilizado por las siguientes empresas:
 
 ## Soporte
 
-🤖 Para obtener asistencia, comuníquese con el equipo de Soporte, las 24hs (DSI_3K5_2024_nroGrupo@gmail.com) ✉
+🤖 Para obtener asistencia, comuníquese con el equipo de Soporte (DSI_3K5_2024_nroGrupo@gmail.com) ✉
