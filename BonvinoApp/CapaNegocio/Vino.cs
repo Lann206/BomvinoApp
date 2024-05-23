@@ -93,7 +93,7 @@ namespace BonvinoApp.CapaNegocio
             if (reseñasFiltradas.Count > 0)
             {
                 if (Bodega != null)
-                { //string nombreBodega = Bodega.Nombre;
+                { 
                     Bodega.getNombre();
                   Console.WriteLine($"Buscando información de la bodega: {Bodega.Nombre}");
                 }
