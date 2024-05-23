@@ -41,8 +41,8 @@ No Contempla:
 - [77029 -	Diaz Luna, Franco](https://www.github.com/FrancoDiazLuna)
 - [legajo -	Duarte, Lucia](https://www.github.com/luciaduarte12)
 - [86495 - Lypnik, Zoi](https://www.github.com/ZoiLyp)
-- [legajo -	Pereyra, Ezequiel ](https://www.github.com/EzePCba)- 
-- [16467 -	Ponce, Ariel](https://www.github.com/narielponce)- 
+- [legajo -	Pereyra, Ezequiel ](https://www.github.com/EzePCba)
+- [16467 -	Ponce, Ariel](https://www.github.com/narielponce)
 - [legajo -	Pucheta, Lanfranco](https://www.github.com/Lann206)
 - [legajo -	Marchetti, Matias ](https://www.github.com/Matiash96)
 - [legajo -	Morellato, Mayra](https://www.github.com/MayraMorellato)  
