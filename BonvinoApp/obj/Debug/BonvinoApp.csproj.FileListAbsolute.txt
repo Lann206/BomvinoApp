@@ -9,3 +9,5 @@ C:\Users\diazl\OneDrive\Escritorio\BomvinoApp\BonvinoApp\obj\Debug\BonvinoApp.cs
 C:\Users\diazl\OneDrive\Escritorio\BomvinoApp\BonvinoApp\obj\Debug\BonvinoApp.exe
 C:\Users\diazl\OneDrive\Escritorio\BomvinoApp\BonvinoApp\obj\Debug\BonvinoApp.pdb
 C:\Users\diazl\OneDrive\Escritorio\BomvinoApp\BonvinoApp\obj\Debug\BonvinoApp.CapaPresentacion.Forms.PantallaGenerarRankingVino.resources
+C:\Users\usuario\Source\Repos\BomvinoApp\BonvinoApp\obj\Debug\BonvinoApp.exe
+C:\Users\usuario\Source\Repos\BomvinoApp\BonvinoApp\obj\Debug\BonvinoApp.pdb

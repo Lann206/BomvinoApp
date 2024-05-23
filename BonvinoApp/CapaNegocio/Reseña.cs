@@ -46,6 +46,17 @@ namespace BonvinoApp.CapaNegocio
         #region [Métodos]
 
         //métodos propios de la clase
+        public bool sosDePeriodo(DateTime fechaDesde, DateTime fechaHasta) {
+            return FechaReseña >= fechaDesde && FechaReseña <= fechaHasta;
+        }
+
+    
+        public bool sosDeSommelier() 
+        {
+            return TipoReseña.Nombre.ToLower().Contains("sommelier");
+        }
+        public float getPje() { }
+
 
         #endregion
     }
