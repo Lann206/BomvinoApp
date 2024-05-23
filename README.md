@@ -1,7 +1,7 @@
 ﻿![Logo](logo.jpg)
 
 
-## Sistema de Respuesta de Voz Interactiva (IVR)
+## Bomvino - Encuentra el vino correcto
 
 Objetivo:
 El objetivo de la aplicación es que los enófilos puedan encontrar y compartir sus reseñas a través del escaneo de la etiqueta del vino que están probando en tiempo real. Permitirá explorar, calificar y revisar vinos, así como recibir recomendaciones personalizadas. Esta aplicación tendrá por objetivo formar comunidad entre los amantes del vino orientándose en dos tipos de usuarios, los enófilos y los dueños de bodegas y/o productores de vino.
