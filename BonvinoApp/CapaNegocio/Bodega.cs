@@ -11,7 +11,7 @@ namespace BonvinoApp.CapaNegocio
     {
         #region [Atributos]
 
-        private List<float> coordenadasUbicacion;
+        private string coordenadasUbicacion;
         private string descripcion;
         private string historia;
         private string nombre;
@@ -20,7 +20,7 @@ namespace BonvinoApp.CapaNegocio
         #endregion
 
         #region [Métodos get y set]
-        public List<float> CoordenadasUbicacion { get => coordenadasUbicacion; set => coordenadasUbicacion = value; }
+        public string CoordenadasUbicacion { get => coordenadasUbicacion; set => coordenadasUbicacion = value; }
         public string Descripcion { get => descripcion; set => descripcion = value; }
         public string Historia { get => historia; set => historia = value; }
         public string Nombre { get => nombre; set => nombre = value; }
@@ -36,7 +36,7 @@ namespace BonvinoApp.CapaNegocio
         /// <param name="historia"></param>
         /// <param name="nombre"></param>
         /// <param name="periodoActualizacion"></param>
-        public Bodega(List<float> coordenadasUbicacion, string descripcion, string historia, string nombre, int periodoActualizacion)
+        public Bodega(string coordenadasUbicacion, string descripcion, string historia, string nombre, int periodoActualizacion)
         {
             CoordenadasUbicacion = coordenadasUbicacion;
             Descripcion = descripcion;

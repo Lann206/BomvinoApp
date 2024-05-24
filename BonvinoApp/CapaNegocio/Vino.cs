@@ -16,7 +16,7 @@ namespace BonvinoApp.CapaNegocio
         private float precio;
         private Varietal varietal;
         private Bodega bodega;
-        private List<Reseña> reseñas;
+        private List<Reseña?> reseñas;
 
         #endregion
 
@@ -27,6 +27,7 @@ namespace BonvinoApp.CapaNegocio
         public string NotaDeCataBodega { get => notaDeCataBodega; set => notaDeCataBodega = value; }
         public float Precio { get => precio; set => precio = value; }
         public List<Reseña> Reseñas { get => reseñas; set => reseñas = value; }
+       
 
         #endregion
 
@@ -53,7 +54,7 @@ namespace BonvinoApp.CapaNegocio
         /// <summary>
         /// Verifica si hay reseñas de un sommelier en un período determinado.
         /// </summary>
-        public List<Reseña> TenesReseñasDeTipoEnPeriodo(DateTime fechaDesde, DateTime fechaHasta)
+        public List<Reseña> tenesReseñasDeTipoEnPeriodo(DateTime fechaDesde, DateTime fechaHasta)
         {
             List<Reseña> reseñasFiltradas = new List<Reseña>();
 
@@ -71,7 +72,7 @@ namespace BonvinoApp.CapaNegocio
         /// Obtiene el nombre del vino.
         /// </summary>
         /// <returns>Nombre del vino</returns>
-        public string GetNombre()
+        private string getNombre()
         {
             return Nombre;
         }
@@ -80,7 +81,7 @@ namespace BonvinoApp.CapaNegocio
         /// Obtiene el precio del vino.
         /// </summary>
         /// <returns>Precio del vino</returns>
-        public float GetPrecio()
+        private float getPrecio()
         {
             return Precio;
         }
@@ -88,7 +89,7 @@ namespace BonvinoApp.CapaNegocio
         /// <summary>
         /// Busca información de la bodega.
         /// </summary>
-        public void BuscarInfoBodega()
+        private string buscarInfoBodega()
         {
             if (reseñasFiltradas.Count > 0)
             {
@@ -114,7 +115,7 @@ namespace BonvinoApp.CapaNegocio
         /// <summary>
         /// Busca información del varietal.
         /// </summary>
-        public void BuscarVarietal()
+        private string buscarVarietal()
         {
             // Lógica para buscar información del varietal
             Console.WriteLine($"Buscando información del varietal: {Varietal.Nombre}");
@@ -123,7 +124,7 @@ namespace BonvinoApp.CapaNegocio
         /// <summary>
         /// Calcula el puntaje de sommelier en un período determinado.
         /// </summary>
-        public void CalcularPjeDeSommelierEnPeriodo()
+        private float calcularPjeDeSommelierEnPeriodo()
         {
             // Lógica para calcular el puntaje de sommelier en un período específico
             Console.WriteLine("Calculando el puntaje de sommelier en el período especificado...");
