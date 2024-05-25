@@ -14,7 +14,7 @@ namespace BonvinoApp.CapaNegocio
         private string nombre;
         private string notaDeCataBodega;
         private float precio;
-        private Varietal varietal;
+        private List<Varietal> varietal;
         private Bodega bodega;
         private List<Reseña> reseñas;
 
@@ -27,6 +27,8 @@ namespace BonvinoApp.CapaNegocio
         public string NotaDeCataBodega { get => notaDeCataBodega; set => notaDeCataBodega = value; }
         public float Precio { get => precio; set => precio = value; }
         public List<Reseña> Reseñas { get => reseñas; set => reseñas = value; }
+        public List<Varietal> Varietal { get => varietal; set => varietal = value; }
+        public Bodega Bodega { get => bodega; set => bodega = value; }
 
         #endregion
 
@@ -37,13 +39,15 @@ namespace BonvinoApp.CapaNegocio
         /// <param name="nombre"></param>
         /// <param name="notaDeCataBodega"></param>
         /// <param name="precio"></param>
-        public Vino(string añadaImagenEtiqueta, string nombre, string notaDeCataBodega, float precio)
+        public Vino(string añadaImagenEtiqueta, string nombre, string notaDeCataBodega, float precio, List<Varietal> varietales, List<Reseña> reseñas, Bodega bodega)
         {
             AñadaImagenEtiqueta = añadaImagenEtiqueta;
             Nombre = nombre;
             NotaDeCataBodega = notaDeCataBodega;
             Precio = precio;
-            Reseñas = new List<Reseña>();
+            Varietal = varietales;
+            Bodega = bodega;
+            Reseñas = reseñas;
         }
 
 
@@ -85,31 +89,31 @@ namespace BonvinoApp.CapaNegocio
             return Precio;
         }
 
-        /// <summary>
-        /// Busca información de la bodega.
-        /// </summary>
-        public void BuscarInfoBodega()
-        {
-            if (reseñasFiltradas.Count > 0)
-            {
-                if (Bodega != null)
-                { 
-                    Bodega.getNombre();
-                  Console.WriteLine($"Buscando información de la bodega: {Bodega.Nombre}");
-                }
-                else
-                { 
-                    Console.WriteLine($"No hay información de bodega asociada al vino: {Nombre}"); 
-                }
-                
-            }
-            else
-            {
-                Console.WriteLine($"No hay reseñas de sommeliers en el período especificado para el vino: {Nombre}");
-            }
+        ///// <summary>
+        ///// Busca información de la bodega.
+        ///// </summary>
+        //public void BuscarInfoBodega()
+        //{
+        //    if (reseñasFiltradas.Count > 0)
+        //    {
+        //        if (Bodega != null)
+        //        {
+        //            Bodega.getNombre();
+        //            Console.WriteLine($"Buscando información de la bodega: {Bodega.Nombre}");
+        //        }
+        //        else
+        //        {
+        //            Console.WriteLine($"No hay información de bodega asociada al vino: {Nombre}");
+        //        }
 
-                
-        }
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine($"No hay reseñas de sommeliers en el período especificado para el vino: {Nombre}");
+        //    }
+
+
+        //}
 
         /// <summary>
         /// Busca información del varietal.
@@ -117,7 +121,6 @@ namespace BonvinoApp.CapaNegocio
         public void BuscarVarietal()
         {
             // Lógica para buscar información del varietal
-            Console.WriteLine($"Buscando información del varietal: {Varietal.Nombre}");
         }
 
         /// <summary>

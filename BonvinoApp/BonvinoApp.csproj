@@ -55,8 +55,12 @@
     <Compile Include="CapaNegocio\RegionVitivinicola.cs" />
     <Compile Include="CapaNegocio\Reseña.cs" />
     <Compile Include="CapaNegocio\TipoReseña.cs" />
+    <Compile Include="CapaNegocio\TipoUva.cs" />
     <Compile Include="CapaNegocio\Varietal.cs" />
     <Compile Include="CapaNegocio\Vino.cs" />
+    <Compile Include="CapaPresentacion\Forms\SeleccionFechasForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CapaPresentacion\Forms\MainWindow.cs">
       <SubType>Form</SubType>
     </Compile>

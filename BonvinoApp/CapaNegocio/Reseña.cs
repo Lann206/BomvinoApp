@@ -14,7 +14,6 @@ namespace BonvinoApp.CapaNegocio
         private bool esPremium;
         private DateTime fechaReseña;
         private float puntaje;
-        private TipoReseña tipoReseña;
 
         #endregion
 
@@ -24,7 +23,6 @@ namespace BonvinoApp.CapaNegocio
         public bool EsPremium { get => esPremium; set => esPremium = value; }
         public DateTime FechaReseña { get => fechaReseña; set => fechaReseña = value; }
         public float Puntaje { get => puntaje; set => puntaje = value; }
-        internal TipoReseña TipoReseña { get => tipoReseña; set => tipoReseña = value; }
 
         #endregion
 
@@ -53,10 +51,8 @@ namespace BonvinoApp.CapaNegocio
     
         public bool sosDeSommelier() 
         {
-            return TipoReseña.Nombre.ToLower().Contains("sommelier");
+            return esPremium;
         }
-        public float getPje() { }
-
 
         #endregion
     }

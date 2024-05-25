@@ -1,4 +1,5 @@
-﻿using BonvinoApp.CapaPresentacion.Forms;
+﻿using BonvinoApp.CapaDatos;
+using BonvinoApp.CapaPresentacion.Forms;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,13 +19,16 @@ namespace BonvinoApp.CapaNegocio.Gestores
 
         public GestorGeneracionRankingVino(PantallaGenerarRankingVino pantallaGenerarRankingVino) {
             this.pantallaGenerarRankingVino = pantallaGenerarRankingVino;
-            
-            //y habria que cargar los datos
+            generalDAC general = new generalDAC();
+
+            List < Vino > listaVinos = general.returnVinos();
         }
 
         #region [Métodos]
 
-        public void generarRankingVinos() { }
+        public void generarRankingVinos() {
+            pantallaGenerarRankingVino.solicitarFechaDesdeHasta();
+        }
 
         public void tomarFechaDesdeHasta() { }
 
