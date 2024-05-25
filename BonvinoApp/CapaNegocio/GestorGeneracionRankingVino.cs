@@ -12,33 +12,50 @@ namespace BonvinoApp.CapaNegocio.Gestores
     {
         #region [Atributos]
         private PantallaGenerarRankingVino pantallaGenerarRankingVino;
-        
+        private DateTime fechaDesde;
+        private DateTime fechaHasta;
+        SeleccionResenasForm.TipoResena tipoReseña;
+        SeleccionFormatoForm.FormatoSeleccion formatoSeleccionVisualizacion;
+        List<Vino> listaVinos;
+        List<Vino> listaVinosFiltradosPeriodoSomelier;
+
         //todos los demas atributos
 
         #endregion
 
-        public GestorGeneracionRankingVino(PantallaGenerarRankingVino pantallaGenerarRankingVino) {
+        public GestorGeneracionRankingVino(PantallaGenerarRankingVino pantallaGenerarRankingVino)
+        {
             this.pantallaGenerarRankingVino = pantallaGenerarRankingVino;
             generalDAC general = new generalDAC();
 
-            List < Vino > listaVinos = general.returnVinos();
+            listaVinos = general.returnVinos();
         }
 
         #region [Métodos]
 
-        public void generarRankingVinos() {
+        public void generarRankingVinos()
+        {
             pantallaGenerarRankingVino.solicitarFechaDesdeHasta();
         }
 
-        public void tomarFechaDesdeHasta() { }
+        public void tomarFechaDesdeHasta(DateTime fechaDesde, DateTime fechaHasta)
+        {
+            this.fechaDesde = fechaDesde;
+            this.fechaHasta = fechaHasta;
+            pantallaGenerarRankingVino.solicitarTipoReseña();
+        }
 
-        public void tomarTipoReseñaSommelier() { }
+        internal void tomarSeleccionFormaVisualizacion(SeleccionFormatoForm.FormatoSeleccion formatoSeleccionado) {
+            this.formatoSeleccionVisualizacion = formatoSeleccionado;
+            pantallaGenerarRankingVino.solicitarConfirmacionGeneracionReporte();
+        }
 
-        public void tomarSeleccionFormaVisualizacion() { }
-
-        public void tomarConfirmacionGeneracionReporte() { }
-
-        public void buscarVinosConReseñaEnPeriodo() { }
+        public void buscarVinosConReseñaEnPeriodo(DateTime fechaDesde, DateTime fechaHasta) {
+            foreach (var vino in listaVinos)
+            {
+                this.listaVinosFiltradosPeriodoSomelier = vino.TenesReseñasDeTipoEnPeriodo(fechaDesde, fechaHasta,vino);
+            }
+        }
 
         public void calcularPjeDeSommelierEnPeriodo() { }
 
@@ -47,6 +64,20 @@ namespace BonvinoApp.CapaNegocio.Gestores
         public void generarExcel() { }
 
         public void finCU() { }
+
+        internal void tomarTipoReseñaSommelier(SeleccionResenasForm.TipoResena resenaSeleccionada)
+        {
+            this.tipoReseña = resenaSeleccionada;
+            pantallaGenerarRankingVino.solicitarSeleccionFormaVisualizacion();
+        }
+
+        internal void tomarConfirmacionGeneracionReporte(bool confirmacion)
+        {
+            if (confirmacion)
+            {
+                buscarVinosConReseñaEnPeriodo(fechaDesde, fechaHasta);
+            }
+        }
 
         #endregion
 

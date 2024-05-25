@@ -53,22 +53,28 @@ namespace BonvinoApp.CapaNegocio
 
         #region [Métodos]
 
-        //métodos propios de la clase
         /// <summary>
-        /// Verifica si hay reseñas de un sommelier en un período determinado.
+        /// Busca todos los vinos que tienen reseñas del tipo sommelier dentro del período especificado.
         /// </summary>
-        public List<Reseña> TenesReseñasDeTipoEnPeriodo(DateTime fechaDesde, DateTime fechaHasta)
+        /// <param name="fechaDesde">La fecha de inicio del período.</param>
+        /// <param name="fechaHasta">La fecha de fin del período.</param>
+        /// <param name="vinos">La lista de vinos en la que se realizará la búsqueda de reseñas.</param>
+        /// <returns>Una lista de todos los vinos que tienen reseñas del tipo sommelier dentro del período especificado.</returns>
+        public List<Vino> TenesReseñasDeTipoEnPeriodo(DateTime fechaDesde, DateTime fechaHasta, Vino vino)
         {
-            List<Reseña> reseñasFiltradas = new List<Reseña>();
+            List<Vino> vinosConReseñaEnPeriodo = new List<Vino>();
 
-            foreach (var reseña in Reseñas)
-            {
-                if (reseña.sosDePeriodo(fechaDesde, fechaHasta) && reseña.sosDeSommelier())
+                foreach (var reseña in vino.reseñas)
                 {
-                    reseñasFiltradas.Add(reseña);
+                    if (reseña.sosDePeriodo(fechaDesde, fechaHasta) && reseña.sosDeSommelier())
+                    {
+                        vinosConReseñaEnPeriodo.Add(vino);
+                        break; // Salir del bucle interno ya que encontramos una reseña que cumple con las condiciones
+                    }
                 }
-            }
-            return reseñasFiltradas;
+            
+
+            return vinosConReseñaEnPeriodo;
         }
 
         /// <summary>
