@@ -12,6 +12,7 @@ namespace BonvinoApp.CapaNegocio
 
         private string descripcion;
         private float porcentaje;
+        private TipoUva tipoUva;
 
         #endregion
 
@@ -26,10 +27,11 @@ namespace BonvinoApp.CapaNegocio
         /// </summary>
         /// <param name="descripcion"></param>
         /// <param name="porcentaje"></param>
-        public Varietal(string descripcion, float porcentaje)
+        public Varietal(string descripcion, float porcentaje, TipoUva tipoUva)
         {
             Descripcion = descripcion;
             Porcentaje = porcentaje;
+            this.tipoUva = tipoUva;
         }
 
 
