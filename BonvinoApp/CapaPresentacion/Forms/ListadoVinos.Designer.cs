@@ -1,6 +1,6 @@
 ﻿namespace BonvinoApp.CapaPresentacion.Forms
 {
-    partial class PantallaGenerarRankingVino
+    partial class ListadoVinos
     {
         /// <summary>
         /// Required designer variable.
@@ -28,36 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.generarRakingVino = new System.Windows.Forms.Button();
+            this.dtgVinos = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgVinos)).BeginInit();
             this.SuspendLayout();
             // 
-            // generarRakingVino
+            // dtgVinos
             // 
-            this.generarRakingVino.Location = new System.Drawing.Point(250, 106);
-            this.generarRakingVino.Name = "generarRakingVino";
-            this.generarRakingVino.Size = new System.Drawing.Size(242, 23);
-            this.generarRakingVino.TabIndex = 0;
-            this.generarRakingVino.Text = "Generar Ranking Vino";
-            this.generarRakingVino.UseVisualStyleBackColor = true;
-            this.generarRakingVino.Click += new System.EventHandler(this.button1_Click);
+            this.dtgVinos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgVinos.Location = new System.Drawing.Point(13, 13);
+            this.dtgVinos.Name = "dtgVinos";
+            this.dtgVinos.Size = new System.Drawing.Size(591, 313);
+            this.dtgVinos.TabIndex = 0;
             // 
-            // PantallaGenerarRankingVino
+            // ListadoVinos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.RosyBrown;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.generarRakingVino);
-            this.Name = "PantallaGenerarRankingVino";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "PantallaGenerarRankingVino";
-            this.Load += new System.EventHandler(this.PantallaGenerarRankingVino_Load);
+            this.ClientSize = new System.Drawing.Size(616, 340);
+            this.Controls.Add(this.dtgVinos);
+            this.Name = "ListadoVinos";
+            this.Text = "ListadoVinos";
+            this.Load += new System.EventHandler(this.ListadoVinos_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dtgVinos)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button generarRakingVino;
+        private System.Windows.Forms.DataGridView dtgVinos;
     }
 }

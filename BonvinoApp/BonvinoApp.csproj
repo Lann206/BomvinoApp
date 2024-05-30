@@ -64,6 +64,12 @@
     <Compile Include="CapaPresentacion\Forms\ConfirmacionForm.Designer.cs">
       <DependentUpon>ConfirmacionForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CapaPresentacion\Forms\ListadoVinos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapaPresentacion\Forms\ListadoVinos.Designer.cs">
+      <DependentUpon>ListadoVinos.cs</DependentUpon>
+    </Compile>
     <Compile Include="CapaPresentacion\Forms\SeleccionFechasForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CapaPresentacion\Forms\ConfirmacionForm.resx">
+      <DependentUpon>ConfirmacionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapaPresentacion\Forms\ListadoVinos.resx">
+      <DependentUpon>ListadoVinos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CapaPresentacion\Forms\MainWindow.resx">
       <DependentUpon>MainWindow.cs</DependentUpon>
     </EmbeddedResource>

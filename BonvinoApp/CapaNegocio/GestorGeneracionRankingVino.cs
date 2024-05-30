@@ -23,6 +23,14 @@ namespace BonvinoApp.CapaNegocio.Gestores
 
         #endregion
 
+        public DateTime FechaDesde
+        {
+            get { return fechaDesde; }
+        }
+        public DateTime FechaHasta
+        {
+            get { return fechaHasta; }
+        }
         public GestorGeneracionRankingVino(PantallaGenerarRankingVino pantallaGenerarRankingVino)
         {
             this.pantallaGenerarRankingVino = pantallaGenerarRankingVino;

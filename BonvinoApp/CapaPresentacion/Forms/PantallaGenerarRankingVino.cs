@@ -46,7 +46,7 @@ namespace BonvinoApp.CapaPresentacion.Forms
                 }
                 else
                 {
-                    Console.WriteLine("El período de fechas no es válido");
+                    MessageBox.Show("El período de fechas no es válido");
                 }
 
                 // Realizar acciones con las fechas seleccionadas, como filtrar los vinos por ese rango de fechas
@@ -110,6 +110,11 @@ namespace BonvinoApp.CapaPresentacion.Forms
             {
                 gestorVinos.tomarConfirmacionGeneracionReporte(frmConfirmacionForm.Confirmacion);
             }
+        }
+
+        private void PantallaGenerarRankingVino_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

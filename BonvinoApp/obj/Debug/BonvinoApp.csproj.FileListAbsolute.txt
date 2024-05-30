@@ -22,3 +22,16 @@ C:\Users\Eze\Source\Repos\BomvinoApp\BonvinoApp\obj\Debug\BonvinoApp.pdb
 C:\Users\Eze\Source\Repos\BomvinoApp\BonvinoApp\bin\Debug\BonvinoApp.exe.config
 C:\Users\Eze\Source\Repos\BomvinoApp\BonvinoApp\bin\Debug\BonvinoApp.exe
 C:\Users\Eze\Source\Repos\BomvinoApp\BonvinoApp\bin\Debug\BonvinoApp.pdb
+D:\Documentos\Ariel\UTN\2024-DSI\PPAI\BomvinoApp\BonvinoApp\bin\Debug\BonvinoApp.exe.config
+D:\Documentos\Ariel\UTN\2024-DSI\PPAI\BomvinoApp\BonvinoApp\bin\Debug\BonvinoApp.exe
+D:\Documentos\Ariel\UTN\2024-DSI\PPAI\BomvinoApp\BonvinoApp\bin\Debug\BonvinoApp.pdb
+D:\Documentos\Ariel\UTN\2024-DSI\PPAI\BomvinoApp\BonvinoApp\obj\Debug\BonvinoApp.csproj.AssemblyReference.cache
+D:\Documentos\Ariel\UTN\2024-DSI\PPAI\BomvinoApp\BonvinoApp\obj\Debug\BonvinoApp.MainWindow.resources
+D:\Documentos\Ariel\UTN\2024-DSI\PPAI\BomvinoApp\BonvinoApp\obj\Debug\BonvinoApp.CapaPresentacion.Forms.PantallaGenerarRankingVino.resources
+D:\Documentos\Ariel\UTN\2024-DSI\PPAI\BomvinoApp\BonvinoApp\obj\Debug\BonvinoApp.Properties.Resources.resources
+D:\Documentos\Ariel\UTN\2024-DSI\PPAI\BomvinoApp\BonvinoApp\obj\Debug\BonvinoApp.csproj.GenerateResource.cache
+D:\Documentos\Ariel\UTN\2024-DSI\PPAI\BomvinoApp\BonvinoApp\obj\Debug\BonvinoApp.csproj.CoreCompileInputs.cache
+D:\Documentos\Ariel\UTN\2024-DSI\PPAI\BomvinoApp\BonvinoApp\obj\Debug\BonvinoApp.exe
+D:\Documentos\Ariel\UTN\2024-DSI\PPAI\BomvinoApp\BonvinoApp\obj\Debug\BonvinoApp.pdb
+D:\Documentos\Ariel\UTN\2024-DSI\PPAI\BomvinoApp\BonvinoApp\obj\Debug\BonvinoApp.CapaPresentacion.Forms.ConfirmacionForm.resources
+D:\Documentos\Ariel\UTN\2024-DSI\PPAI\BomvinoApp\BonvinoApp\obj\Debug\BonvinoApp.CapaPresentacion.Forms.ListadoVinos.resources

@@ -75,6 +75,7 @@
             this.Name = "ConfirmacionForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Confirmación";
+            this.Load += new System.EventHandler(this.ConfirmacionForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

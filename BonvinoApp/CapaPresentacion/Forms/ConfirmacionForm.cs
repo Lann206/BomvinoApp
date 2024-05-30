@@ -25,7 +25,9 @@ namespace BonvinoApp.CapaPresentacion.Forms
         {
             Confirmacion = true;
             DialogResult = DialogResult.OK;
-            Close();
+            //Close();
+            ListadoVinos listadoVinos = new ListadoVinos();
+            listadoVinos.ShowDialog();
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
@@ -33,6 +35,11 @@ namespace BonvinoApp.CapaPresentacion.Forms
             Confirmacion = false;
             DialogResult = DialogResult.Cancel;
             Close();
+        }
+
+        private void ConfirmacionForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
